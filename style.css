@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --cor-texto: rgba(0, 0, 0, 0.6);
+  --bacground:#fff0df;
+  --color-name:#FED7AA;
+  --black:#2D2C2A;
+  --color1:#000;
+  --color2:#995000;
+}
+
+.theme_B {
+  --cor-texto:#e7e7e7;
+  --bacground:#492d0b;
+  --color-name:#b66100;
+  --black:#000000;
+  --color1:#ffffff;
+  --color2:#140a00;
+}
+
+body {
+  background-color:var(--bacground) ;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+}
+
+h1{
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-transform:uppercase ;
+}
+
+
+header p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--cor-texto);
+}
+
+h2 {
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  text-transform: uppercase;
+  text-align: center;
+
+
+  padding: 8px 16px;
+  background-color: var(--color-name);
+  color: var(--black);
+}
+
+h3 {
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: var(--cor-texto);
+}
+
+.name_price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--black);
+}
+
+
+
+main {
+  margin: 0 auto;
+  width: 300px;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+
+section ul {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.details h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+
+.black {
+  color:var(--color1);
+}
+
+.brown {
+color: var(--color2);
+}
+
+
+.btn {
+  position: absolute;
+
+  right: 10%;
+}
