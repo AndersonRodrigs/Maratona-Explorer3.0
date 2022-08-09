@@ -12,24 +12,74 @@ body {
 
 :root {
   --cor-texto: rgba(0, 0, 0, 0.6);
-  --bacground:#fff0df;
-  --color-name:#FED7AA;
-  --black:#2D2C2A;
-  --color1:#000;
-  --color2:#995000;
+  --bacground: #fff0df;
+  --color-name: #fed7aa;
+  --black: #2d2c2a;
+  --color1: #000;
+  --color2: #995000;
 }
 
 .theme_B {
-  --cor-texto:#e7e7e7;
-  --bacground:#492d0b;
-  --color-name:#b66100;
-  --black:#000000;
-  --color1:#ffffff;
-  --color2:#140a00;
+  --cor-texto: #e7e7e7;
+  --bacground: #492d0b;
+  --color-name: #b66100;
+  --black: #000000;
+  --color1: #ffffff;
+  --color2: #140a00;
+}
+
+.btn {
+  top: 20px;
+  position: absolute;
+
+  right: 40px;
+}
+
+.checkbox {
+  width: 52px;
+  height: 22px;
+  padding: 4px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #fff0df;
+
+  border-radius: 5px;
+
+  border: 1px rgb(0, 0, 0 ) solid;
+
+  transition: border-color 0.2ms, background-color 0.2s;
+
+  cursor: pointer;
+}
+
+.checkbox::before {
+  content: '';
+  display: inline;
+
+  width: 14px;
+  height: 14px;
+  border-radius: 5px;
+  background-color: #140a00;
+  
+  transition: width 0.2s, height 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.checkbox.on {
+  border: 1px white solid;
+  background-color: var(--bacground);
+}
+
+.checkbox.on::before {
+  background-color: #fff0df;
+  width: 14px;
+  height: 14px;
+  transform: translateX(27px);
 }
 
 body {
-  background-color:var(--bacground) ;
+  background-color: var(--bacground);
 }
 
 ul {
@@ -40,15 +90,14 @@ ul li {
   display: flex;
 }
 
-h1{
+h1 {
   font-family: 'Roboto Serif';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 33px;
-  text-transform:uppercase ;
+  text-transform: uppercase;
 }
-
 
 header p {
   font-family: 'Roboto';
@@ -69,7 +118,6 @@ h2 {
 
   text-transform: uppercase;
   text-align: center;
-
 
   padding: 8px 16px;
   background-color: var(--color-name);
@@ -112,18 +160,16 @@ h3 {
   color: var(--black);
 }
 
-
-
 main {
   margin: 0 auto;
   width: 300px;
 }
 
 header {
+  margin-top: 50px;
   text-align: center;
   padding: 30px 0px;
 }
-
 
 section ul {
   margin-bottom: 24px;
@@ -139,18 +185,10 @@ section h2 {
   margin-bottom: 8px;
 }
 
-
 .black {
-  color:var(--color1);
+  color: var(--color1);
 }
 
 .brown {
-color: var(--color2);
-}
-
-
-.btn {
-  position: absolute;
-
-  right: 10%;
+  color: var(--color2);
 }
