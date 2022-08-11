@@ -12,20 +12,20 @@ body {
 
 :root {
   --cor-texto: rgba(0, 0, 0, 0.6);
-  --bacground: #fff0df;
-  --color-name: #fed7aa;
+  --bacground: #d9e6ff;
+  --color-name: #aab9fe;
   --black: #2d2c2a;
   --color1: #000;
-  --color2: #995000;
+  --color2: #724400;
 }
 
 .theme_B {
   --cor-texto: #e7e7e7;
-  --bacground: #492d0b;
-  --color-name: #b66100;
+  --bacground: #0b4049;
+  --color-name: #008cb6;
   --black: #000000;
   --color1: #ffffff;
-  --color2: #140a00;
+  --color2: #724400;
 }
 
 .btn {
@@ -43,7 +43,7 @@ body {
   display: flex;
   align-items: center;
 
-  background-color: #fff0df;
+  background-color: #d9e6ff;
 
   border-radius: 5px;
 
