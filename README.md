@@ -1,2 +1,2 @@
 # MaratonaEX3.0
-Criaçao de um cardápio com HTML e css.
+Projeto criado na maratona Explorer3.0 com HTML e css.
