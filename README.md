@@ -13,7 +13,7 @@
 
 Projeto desenvolvido na maratona Explorer da Rocketseat
 
-[🔗 Clique aqui para acessar](https://AndersonRodrigs.github.io/MaratonaEX3.0/)
+[🔗 Clique aqui para acessar](https://andersonrodrigs.github.io/Maratona-Explorer3.0/)
 
 ## 🛠 Tecnologias utilizadas:
 
