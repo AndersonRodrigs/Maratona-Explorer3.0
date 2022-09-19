@@ -1,5 +1,5 @@
 # Maratona Explorer 3.0 
-
+![image](https://user-images.githubusercontent.com/105132452/191039783-f0cf6638-d6a5-4703-bf78-11e9fdd743c2.png)
 > Maratona Explorer 3.0 
 ## Sobre o projeto:
 
